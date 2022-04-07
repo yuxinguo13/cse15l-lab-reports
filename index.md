@@ -1,6 +1,8 @@
 Hi, I am Yuxin.
 
-*The lab report.*
+*The lab report. Italic *
 
-** bold here **
+**bold here**
+
+
 
