@@ -6,9 +6,7 @@
 
 [this the link to report index page](https://yuxinguo13.github.io/cse15l-lab-reports/index.html)
 
-<img src="IMG_4462.JPG" alt="drawing" width="200"/>
-
-![Image](IMG_4462.JPG)
+<img src="IMG_4462.JPG" alt="drawing" width="400"/>
 
 > helloworld
 
