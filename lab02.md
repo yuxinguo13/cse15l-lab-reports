@@ -23,7 +23,7 @@
 a horizontal line 
 ---
 
-`inline code here wow`
+`inline code here `
 
 
 ```
