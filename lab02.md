@@ -6,12 +6,13 @@
 
 [this the link to report index page](https://yuxinguo13.github.io/cse15l-lab-reports/index.html)
 
-> Blockquote helloworld
+> helloworld
 
 * list 1
 * list 2
 * list 3
 
+<br>
 
 1. one
 2. two
@@ -27,6 +28,10 @@ a horizontal line
 this is the code block
 helloworld
 ```
+
+<br>
+
+
 
 
 
