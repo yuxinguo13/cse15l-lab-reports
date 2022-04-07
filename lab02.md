@@ -4,6 +4,6 @@
 
 ## Heading 2
 
-[this a link to report](https://yuxinguo13.github.io/cse15l-lab-reports/)
+[this the link to report index page](https://yuxinguo13.github.io/cse15l-lab-reports/index.html)
 
 > Blockquote helloworld
