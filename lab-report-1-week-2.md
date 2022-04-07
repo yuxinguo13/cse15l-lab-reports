@@ -1,1 +1,1 @@
-<img src="ScreenShot.png" alt="drawing"/>
+<img src="ScreenShot.png" alt="just a local screenshot"/>
