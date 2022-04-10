@@ -4,7 +4,7 @@
 - Download the dmg file to the computer and install the vscode application
 - Open the application and is will show this page
 - In the vscode we are also able to open the file in different format such as markdown, python, and java
-<img src="VSCode.png" alt="drawing" width="400"/>
+- <img src="VSCode.png" alt="drawing" width="600"/>
 <br>
 
 ### Remotely Connecting
