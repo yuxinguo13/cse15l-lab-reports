@@ -61,4 +61,11 @@ $ scp /Users/amilyguo/.ssh/id_rsa.pub cs15lsp22ael@ieng6.ucsd.edu:~/.ssh/authori
 <br>
 
 ### Optimizing Remote Running
+`$ scp WhereAmI.java cs15lsp22ael@ieng6.ucsd.edu:~/; ssh cs15lsp22ael@ieng6.ucsd.edu; javac fileName.java; java fileName
+`
+- `scp fileName.java cs15lsp22ael@ieng6.ucsd.edu:~/;` Copy the local file into remote system
+- `ssh cs15lsp22ael@ieng6.ucsd.edu;` Log into the remote system
+- `javac fileName.java` Compile the java file
+- `java fileName` Run the java program
+<img src = "Image/OptimizeToRemote.png" alt = "drawing" width = 500>
 <br>
