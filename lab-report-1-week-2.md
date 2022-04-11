@@ -31,11 +31,32 @@
 - Use `scp fileName.java cs15lsp22ael@ieng6.ucsd.edu:~/` to copy the local java file into the remote computer, and enter the password to ensure the log in status
 - <img src = "Image/scpToRemote.png" alt = "drawing" width = 500>
 - To check whether the file is in the remote computer or not, log into the remote account again and `ls` to see the file in the directory
+- Then should be able to compile and run the file on the remote computer
 - <img src = "Image/CheckFileExist.png" alt = "drawing" width = 500>
-- 
 <br>
 
 ### Setting an SSH Key
+- Setting SSH Key creates a pair of public key and private key
+> Local Computer
+```
+ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/emilyguo/.ssh/id_rsa): /Users/emilyguo/.ssh/id_rsa
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+```
+- Copy the file on to remote system using private key and public key stored
+> Remote Computer
+```
+$ ssh cs15lsp22ael@ieng6.ucsd.edu
+<Password>
+$ mkdir .ssh
+$ <logout>
+```
+> Local Computer (Copy local file into remote system)
+```
+$ scp /Users/amilyguo/.ssh/id_rsa.pub cs15lsp22ael@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
 <br>
 
 ### Optimizing Remote Running
