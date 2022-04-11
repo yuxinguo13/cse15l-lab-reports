@@ -53,6 +53,7 @@ $ ssh cs15lsp22ael@ieng6.ucsd.edu
 $ mkdir .ssh
 $ <logout>
 ```
+
 > Local Computer (Copy local file into remote system)
 ```
 $ scp /Users/amilyguo/.ssh/id_rsa.pub cs15lsp22ael@ieng6.ucsd.edu:~/.ssh/authorized_keys
