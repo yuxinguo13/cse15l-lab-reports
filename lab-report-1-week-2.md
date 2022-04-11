@@ -27,8 +27,11 @@
 
 ### Moving Files with scp
 - Use `javac` to compile the java file and `java` to run the program
+- <img src = "Image/RunFileOnLocal.png" alt = "drawing" width = 500>
 - Use `scp fileName.java cs15lsp22ael@ieng6.ucsd.edu:~/` to copy the local java file into the remote computer, and enter the password to ensure the log in status
+- <img src = "Image/scpToRemote.png" alt = "drawing" width = 500>
 - To check whether the file is in the remote computer or not, log into the remote account again and `ls` to see the file in the directory
+- <img src = "Image/CheckFileExist.png" alt = "drawing" width = 500>
 - 
 <br>
 
