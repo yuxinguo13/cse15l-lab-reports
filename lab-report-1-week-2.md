@@ -43,6 +43,8 @@
 ### Setting an SSH Key
 - Setting SSH Key creates a pair of public key and private key
 > Local Computer
+
+
 ```
 ssh-keygen
 Generating public/private rsa key pair.
@@ -54,6 +56,7 @@ Enter same passphrase again:
 - Copy the file on to remote system using private key and public key stored
 
 > Remote Computer
+
 ```
 $ ssh cs15lsp22ael@ieng6.ucsd.edu
 <Password>
@@ -62,6 +65,7 @@ $ <logout>
 ```
 
 > Local Computer (Copy local file into remote system)
+
 ```
 $ scp /Users/amilyguo/.ssh/id_rsa.pub cs15lsp22ael@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
