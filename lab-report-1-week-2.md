@@ -1,5 +1,7 @@
 # Lab Report1 week2
 
+[Other reports here](https://yuxinguo13.github.io/cse15l-lab-reports/)
+
 ### Installing VScode
 - Download the dmg file to the computer through [this link](https://code.visualstudio.com/download) and install the vscode application
 - Open the application and is will show this page
