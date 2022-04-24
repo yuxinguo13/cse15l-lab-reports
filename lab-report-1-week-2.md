@@ -1,4 +1,4 @@
-# Lab Report1 week2
+# Lab Report1 Week2
 
 [Other reports here](https://yuxinguo13.github.io/cse15l-lab-reports/)
 
