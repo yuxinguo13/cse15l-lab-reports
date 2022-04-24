@@ -53,17 +53,8 @@
 <img src = "image_report2/symptom3.png" alt = "drawing" width = 500/>
 
 - Relationship between the bug, the symptom, and the failure-inducing input
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - The test file have link that both in the [] and ()
+  - Our previous code would get the link that is in the () and would only obtain the link that is in the []
+  - Thus, leading to the failure in test. That the actual output is less than the expected output
+  - We could update the code to also find out the code with in the () to solve this problem.
+  - 
