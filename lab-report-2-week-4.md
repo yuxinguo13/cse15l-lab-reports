@@ -16,7 +16,7 @@
 
 - Failure-including input: [test file 1](https://github.com/yuxinguo13/markdown-parser/blob/main/test-file.md)
 
-- Symptom of the code
+- Symptom of the code: it shows the infinitly loop and lack of heap space
 
 <img src = "image_report2/symptom1.png" alt = "drawing" width = 500/>
 
@@ -25,43 +25,50 @@
   - But in the code, we do not have method to deal with the blank line at the end of the file.
   - The empty line leads to the infinitely loop erroe in the test, and the not enough heap space, which lead to the failure of the test.
 
-### 2
+### Second Change
 
 - Code change
 
-
-
-- Failure-including input: 
-
-
-- Symptom of the code
-
-
-
-- Relationship between the bug, the symptom, and the failure-inducing input
-
-
-
-[test file 2](https://github.com/yuxinguo13/markdown-parser/blob/main/test-file3.md)
-
 <img src = "image_report2/change2code.png" alt = "drawing" width = 500/>
+
+- Failure-including input: [test file 2](https://github.com/yuxinguo13/markdown-parser/blob/main/test-file3.md)
+
+- Symptom of the code and test: the index of the arraylist is out of bound
 
 <img src = "image_report2/change2test.png" alt = "drawing" width = 500/>
 
 <img src = "image_report2/symptom2.png" alt = "drawing" width = 500/>
 
+- Relationship between the bug, the symptom, and the failure-inducing input
+  - In this test file, we don't have the () and only have the brackets.
+  - Thus, our previous code which also detect the () would not work in this case.
+  - When we trying to obtain the substring within the (), the index given would out of index.
+  - Therefore, we change the code to only check the substring within the [].
 
 
+### THird Cahange
 
-
-### 3
-[test-file-5](https://github.com/yuxinguo13/markdown-parser/blob/main/test-file5.md)
+- Code change
 
 <img src = "image_report2/change3code.png" alt = "drawing" width = 500/>
+
+- Failure-including input: [test-file-5](https://github.com/yuxinguo13/markdown-parser/blob/main/test-file5.md)
+
+- Symptom of the code and test: the index of the arraylist is out of bound
 
 <img src = "image_report2/change3test.png" alt = "drawing" width = 500/>
 
 <img src = "image_report2/symptom3.png" alt = "drawing" width = 500/>
+
+- Relationship between the bug, the symptom, and the failure-inducing input
+
+
+
+
+
+
+
+
 
 
 
