@@ -4,6 +4,7 @@
 - Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.
 
 # Lab Report2 Week4
+[Other reports here](https://yuxinguo13.github.io/cse15l-lab-reports/)
 
 ### 1
 
