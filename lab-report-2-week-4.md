@@ -32,3 +32,16 @@
 
 
 ### 3
+[test-file-5](https://github.com/yuxinguo13/markdown-parser/blob/main/test-file5.md)
+
+<img src = "image_report2/change3code.png" alt = "drawing" width = 500/>
+
+<img src = "image_report2/change3test.png" alt = "drawing" width = 500/>
+
+<img src = "image_report2/symptom3.png" alt = "drawing" width = 500/>
+
+
+
+
+
+
