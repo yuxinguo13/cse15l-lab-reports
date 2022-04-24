@@ -10,4 +10,4 @@ This is my lab reports for CSE15L.
 [Lab Report2 Week4](https://yuxinguo13.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
 
-<img src = "Hi.jpeg" alt = "drawing" width = 700/>
+<img src = "Hi.jpg" alt = "drawing" width = 700/>
