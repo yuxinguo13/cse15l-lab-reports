@@ -3,9 +3,9 @@
 - Show the symptom of that failure-inducing input by showing the output of running the file at the command line for the version where it was failing (this should also be in the commit message history)
 - Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.
 
+# Lab Report2 Week4
 
-
-# 1
+### 1
 
 [test file 1](https://github.com/yuxinguo13/markdown-parser/blob/main/test-file.md)
 
@@ -16,7 +16,7 @@
 
 
 
-# 2
+### 2
 
 [test file 2](https://github.com/yuxinguo13/markdown-parser/blob/main/test-file3.md)
 
@@ -30,4 +30,4 @@
 
 
 
-# 3
+### 3
