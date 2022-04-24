@@ -1,11 +1,4 @@
-Hi, I am Yuxin.
-
 *The lab report.*
+Hi, I am Yuxin. This is my lab reports for CSE15L.
 
-**bold here**
-
-[link to lab02 report](https://yuxinguo13.github.io/cse15l-lab-reports/lab02.html)
-
-[Lab Report 1](lab-report-1-week-2.html)
-<br>
-[Lab Report 1](https://yuxinguo13.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+[Lab Report1 Week2](https://yuxinguo13.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
