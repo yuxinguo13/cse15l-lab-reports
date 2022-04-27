@@ -6,6 +6,7 @@
 
 <img src = "image_report2/change1code1.png" alt = "drawing" width = 650/>
 <img src = "image_report2/change1code2.png" alt = "drawing" width = 600/>
+<img src = "image_report2/change1test.png" alt = "drawing" width = 550/>
 
 - Failure-including input: [test file 1](https://github.com/yuxinguo13/markdown-parser/commit/a53156ae21cbffd9f73410be4b36064613c3e6d0)
 
