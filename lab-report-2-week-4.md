@@ -2,11 +2,12 @@
 [Other reports here](https://yuxinguo13.github.io/cse15l-lab-reports/)
 
 ### First Change
-- Code change
+- Code change (deal with the blank line by checking the content of the next line)
 
-<img src = "image_report2/change1.png" alt = "drawing" width = 500/>
+<img src = "image_report2/change1code1.png" alt = "drawing" width = 650/>
+<img src = "image_report2/change1code2.png" alt = "drawing" width = 600/>
 
-- Failure-including input: [test file 1](https://github.com/yuxinguo13/markdown-parser/blob/main/test-file.md)
+- Failure-including input: [test file 1](https://github.com/yuxinguo13/markdown-parser/commit/a53156ae21cbffd9f73410be4b36064613c3e6d0)
 
 - Symptom of the code: it shows the infinitly loop and lack of heap space
 
