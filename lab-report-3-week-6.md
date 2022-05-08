@@ -17,7 +17,7 @@
 
 ### Setuo Github Access from ieng6
 - show public key
-<img src = "image_report3/pbulic_ssh.png" width = 500>
+<img src = "image_report3/public_ssh.png" width = 500>
 
 - show private key
 <img src = "image_report3/private_ssh.png" width = 500>
