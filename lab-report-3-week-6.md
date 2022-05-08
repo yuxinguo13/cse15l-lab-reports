@@ -19,6 +19,9 @@
 
 <img src = "image_report3/scp_file.png" width = 500>
 
+By changing the .ssh config and set a alis name to my ieng6 account, I could easily log into the account and do operations over the account.
+
+
 ### Setuo Github Access from ieng6
 - show public key
 <img src = "image_report3/public_ssh.png" width = 500>
@@ -32,7 +35,7 @@
 - link to commit
 <img src = "image_report3/scp_file.png" width = 500>
 
-By changing the .ssh config and set a alis name to my ieng6 account, I could easily log into the account and do operations over the account.
+
 
 
 ### Copy whole directory using scp -r
