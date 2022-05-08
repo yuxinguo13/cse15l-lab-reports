@@ -3,16 +3,20 @@
 
 ### Streaminglining ssh Configuration
 
-- open config
+- Open the config file in textEditor, and set the content of it.
+
 <img src = "image_report3/show_config.png" width = 500>
 
-- log into account using ssh
+- After changing the the config, and use an alis to represent my ieng6 account, I could log into the account using ssh + alis name
+
 <img src = "image_report3/log_into_account.png" width = 500>
 
-- before copy files in account
+- These are files in my ieng6 account before I copy files into the account
+
 <img src = "image_report3/before_scp.png" width = 500>
 
-- after copy
+- Files in my ieng6 account after copying files
+
 <img src = "image_report3/scp_file.png" width = 500>
 
 ### Setuo Github Access from ieng6
@@ -28,6 +32,7 @@
 - link to commit
 <img src = "image_report3/scp_file.png" width = 500>
 
+By changing the .ssh config and set a alis name to my ieng6 account, I could easily log into the account and do operations over the account.
 
 
 ### Copy whole directory using scp -r
