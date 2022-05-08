@@ -23,32 +23,37 @@ By changing the .ssh config and set a alis name to my ieng6 account, I could eas
 
 
 ### Setuo Github Access from ieng6
-- show public key
+- This is the public key that I settled for my ieng6 account
+
 <img src = "image_report3/public_ssh.png" width = 500>
 
-- show private key
+- This is where I stored my private key on my computer
+
 <img src = "image_report3/private_ssh.png" width = 500>
 
-- git command
-<img src = "image_report3/scp_file.png" width = 500>
+- This is how I git commit the command, and push it into the github
 
-- link to commit
-<img src = "image_report3/scp_file.png" width = 500>
+<img src = "image_report3/git_commit.png" width = 500>
 
+- [Link to commit](https://github.com/yuxinguo13/markdown-parser/commit/577b5adab7815024d536f72aa8047445b7cc2938)
 
 
 
 ### Copy whole directory using scp -r
-- copy whole directory to ieng6 account
+- By using the scp -r, I could directly copy the whole directory to ieng6 account.
+
 <img src = "image_report3/copy_all_files.png" width = 500>
 
-- log into account to check the folder
+- Then I log into account to check the folder.
+
 <img src = "image_report3/run_files.png" width = 500>
 
-- compile and run the test
+- I could also compile the program and run the test on my ieng6 account
+
 <img src = "image_report3/scp_file.png" width = 500>
 
-- doing copy and log into account in one step
+- This is how to copying and loging into account in one step
+
 <img src = "image_report3/copy_log_in_one_line.png" width = 500>
 
 
