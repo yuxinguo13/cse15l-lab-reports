@@ -20,19 +20,19 @@
 #### My implementation
 ##### Snippet 1
 - Expected: <img src = "image_report4/preview_testfile1.png" alt = "drawing" width = 500/>
-- Actual: 
+- Actual: <img src = "image_report4/preview_my_result1.png" alt = "drawing" width = 700/>
 - Reason:
 
 
 ##### Snippet 2
 - Expected: <img src = "image_report4/preview_testfile2.png" alt = "drawing" width = 500/>
-- Actual: 
+- Actual: <img src = "image_report4/preview_my_result2.png" alt = "drawing" width = 700/>
 - Reason:
 
 
 ##### Snippet 3
 - Expected: <img src = "image_report4/preview_testfile3.png" alt = "drawing" width = 900/>
-- Actual: 
+- Actual: <img src = "image_report4/preview_my_result3.png" alt = "drawing" width = 700/>
 - Reason:
 
 
