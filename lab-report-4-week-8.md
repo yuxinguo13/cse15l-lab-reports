@@ -27,13 +27,13 @@
 ##### Snippet 2
 - Expected: <img src = "image_report4/preview_testfile2.png" alt = "drawing" width = 500/>
 - Actual: <img src = "image_report4/preview_my_result2.png" alt = "drawing" width = 700/>
-- Reason: 
+- Reason: My code could get the first a.com since this is a regular expression [] and (). But for second one, my code not work well for this one, since the ) after the ( is not actually the end of the link. Thus, this would lead me to find only (( in the link. And for the last link, the sign after first ] is still a ], thus my code will directly break the while loop and not consider it as the link.
 
 
 ##### Snippet 3
 - Expected: <img src = "image_report4/preview_testfile3.png" alt = "drawing" width = 900/>
 - Actual: <img src = "image_report4/preview_my_result3.png" alt = "drawing" width = 700/>
-- Reason: 
+- Reason: In my code, the output show that the code is out of index. By checking my code, I found that my code only considre the situation that each line of link is in the single line, including the [] and (). Thus, for this example, my code doesn't work in this case.
 
 
 #### Reviewed implementation
