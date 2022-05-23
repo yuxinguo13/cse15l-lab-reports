@@ -47,14 +47,14 @@
 - Expected: <img src = "image_report4/preview_testfile2.png" alt = "drawing" width = 500/>
 
 - Actual: <img src = "image_report4/preview_result2.png" alt = "drawing" width = 700/>
-- Reason: For the first link, it's correct, but the code fail to get the last two links. For 'a.com(())', since we find the link according to the existence of the [] and () bruckets, the first existence of the ) would be considered the end of the link, and this is why we would have only 'a.com(('. For the last link, the code didn't find the link. This is because, behind the first end ], it'd not (. So, the code doesn't consider the this line of code as linke.
+- Reason: For the first link, it's correct, but the code fail to get the last two links. For 'a.com(())', since the code find the link according to the existence of the [] and () bruckets, the first existence of the ) would be considered the end of the link, and this is why the code would have only 'a.com(('. For the last link, the code didn't find the link. This is because, behind the first end ], it'd not (. So, the code doesn't consider the this line of code as linke.
 
 
 ##### Snippet 3
 - Expected: <img src = "image_report4/preview_testfile3.png" alt = "drawing" width = 900/>
 
 - Actual: <img src = "image_report4/preview_result3.png" alt = "drawing" width = 700/>
-- Reason:
+- Reason: For the first link, the content is correct, but since there are have so many spaces in-between lines, the code didn'tgit rid of all the blank spaces in the link. Also, for the last one, there are actually two linkes, but the code only consider this as only one link, and this is why we have so much information as the third link. All the information between the open ( and last end ) are included as the link.
 
 </br>
 
