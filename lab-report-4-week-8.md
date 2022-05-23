@@ -21,19 +21,19 @@
 ##### Snippet 1
 - Expected: <img src = "image_report4/preview_testfile1.png" alt = "drawing" width = 500/>
 - Actual: <img src = "image_report4/preview_my_result1.png" alt = "drawing" width = 700/>
-- Reason:
+- Reason: Since my code has check the [] first and then if ( is after the ], I would consider it as the link nor I will consider the link not exist. That's why my code would consider url.com as the link. For the second and the third ones, my code would successfully obtain them. For the last one, since the element after the first ] is not ), my not work well for this link.
 
 
 ##### Snippet 2
 - Expected: <img src = "image_report4/preview_testfile2.png" alt = "drawing" width = 500/>
 - Actual: <img src = "image_report4/preview_my_result2.png" alt = "drawing" width = 700/>
-- Reason:
+- Reason: 
 
 
 ##### Snippet 3
 - Expected: <img src = "image_report4/preview_testfile3.png" alt = "drawing" width = 900/>
 - Actual: <img src = "image_report4/preview_my_result3.png" alt = "drawing" width = 700/>
-- Reason:
+- Reason: 
 
 
 #### Reviewed implementation
