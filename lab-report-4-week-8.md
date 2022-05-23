@@ -59,10 +59,6 @@
 </br>
 
 ### Questions
-  1. 
-Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
-
-Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
-
-Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
-
+  1. Yes, only 10 line of change can help to make my program work for snippet 1. I could change the whether the bruckets are in the \`\` code fence, it it's in the fence then I won't consider it as the link, And also I could check for each [ brucket and the corresponding ] bruckets in that line, and whether there is a ] brucket followed by (). If there is, then adding the content inside the () into the link list.
+  2. Yes, for the second example, I would check the () using stack. For each ( there should be a corresponding ), and all the information within the most outter () is the link that wewant. And for the last example, I would also stack to check the pairring of [], only the most outside [] is what we want.
+  3. It's hard to do this in only 10 lines. Since my whole program is based on the assumption that all the hyperlink and its [] will be only in one line, and the scanner reader in my program also only read one single line at one time, so it's really hard to change my code in only 10 lines to make it work for snippet 3. 
