@@ -11,4 +11,6 @@ This is my lab reports for CSE15L.
 
 [Lab Report3 Week6](https://yuxinguo13.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 
+[Lab Report4 Week8](https://yuxinguo13.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+
 <img src = "Hi.jpg" alt = "drawing" width = 700/>
