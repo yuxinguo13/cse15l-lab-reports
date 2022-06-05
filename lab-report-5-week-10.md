@@ -16,7 +16,7 @@ _File 499_
 - [link to second text file](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/499.md)
 
 ---
-> ## Test file 1 : 498.md
+> ## Test file 1 : [498.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/498.md)
 
 My output:
 
@@ -26,7 +26,7 @@ Repository output:
 
 <img src = "image_report5/repository output 498.png">
 
-Actual output:
+Actual output: `<foo(and(bar)>`
 
 <img src = "image_report5/actual output 498.png">
 
@@ -42,7 +42,7 @@ Description of bug and how to fix it: I believe that the bug comes from the fact
 
 ---
 
-> ## Test file 2 : 499.md
+> ## Test file 2 : [499.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/499.md)
 
 My output:
 
@@ -52,7 +52,7 @@ Repository output:
 
 <img src = "image_report5/repository output 499.png">
 
-Actual output:
+Actual output: `foo\)\:`
 
 <img src = "image_report5/actual output 499.png">
 
