@@ -26,19 +26,24 @@ Repository output:
 
 <img src = "image_report5/repository output 498.png">
 
-Actual output: `<foo(and(bar)>`
+Actual output: 
 
 <img src = "image_report5/actual output 498.png">
 
-Both my output and the provided repository output gave the wrong output as the output should actuallty be *[(foo)]*.
+Both my output and the output from the provided repository are inconsistent with the correct output as the output should be `<foo(and(bar)>`
 
+Error in my code:
 
-Part of my code that has error:
+<img src = "image_report5/error my code 498.png">
 
+Description of bug and how to fix it: I found that after find the index of the (, I find the ) that is after this sign. That's why my output only get the 
+`<foo(and(bar` and doesn't have the `)>`. So in order to fix the bug, I believe that I need to find the ) from the end of the text rather than the ) that is immediately after the ( brucket.
 
-![image](https://user-images.githubusercontent.com/86458122/171515163-30fee906-8244-4ffe-8e2a-687c61101027.png)
+Error in provided repository:
 
-Description of bug and how to fix it: I believe that the bug comes from the fact that I do not consider when there is an event where a code is in between more than one complete brackets. A condition of counting the brackets and checking the code between the brackets should be made to fix the error.
+<img src = "image_report5/error in provided code 498.png">
+
+Description of bug and how to fix it: In the findCloseParen method I find that the method assume that the findCloseParen is at one index after the open paren. This is wrong. So, to fix the bug, we could use the indexof to find the close paren first. 
 
 ---
 
