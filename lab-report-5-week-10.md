@@ -57,18 +57,20 @@ Repository output:
 
 <img src = "image_report5/repository output 499.png">
 
-Actual output: `foo\)\:`
+Actual output: 
 
 <img src = "image_report5/actual output 499.png">
 
-Both my output and the provided repository output gave the wrong output as the output should actuallty be an empty bracket *[]*, since there is no resulting link.
+Both my output and the output from the provided repository are inconsistent with the correct output as the output should be `foo\)\:`
 
+Error in my code:
 
-Part of my code that has error:
+<img src = "image_report5/error my code 499.png">
 
+Description of bug and how to fix it: For this text, my code doesn't consider that pairing of paren. For a ( would be a ), it's hard to tell the pairing of brucket. I think I could fix the bug by using stack to store the existing paren, so I could get rid of this bug.
 
-![image](https://user-images.githubusercontent.com/86458122/171516708-1673751b-b75c-43d5-badf-b3b493f05c6e.png)
+Error in provided repository:
 
-Description of bug and how to fix it: I believe that the bug comes from this specific part of my code, before the if statement found on the picture above. I should have put a condition where if "!" is found in any index of the substring, the while loop should just break right away.
+<img src = "image_report5/error in provided code 499.png">
 
-
+Description of bug and how to fix it: This is similar to my previous bug, after finding the (, the code finds the ) immediately. This is inccorect since my might need to find the ) from the back of the text rather than from the index of (. 
