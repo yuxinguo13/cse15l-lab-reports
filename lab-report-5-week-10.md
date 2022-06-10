@@ -61,7 +61,7 @@ Actual output:
 
 <img src = "image_report5/actual output 499.png">
 
-Both my output and the output from the provided repository are inconsistent with the correct output as the output should be `foo\)\:`
+Both my output and the output from the provided repository are inconsistent with the correct output as the output should be `foo`
 
 Error in my code:
 
@@ -73,4 +73,4 @@ Error in provided repository:
 
 <img src = "image_report5/error in provided code 499.png">
 
-Description of bug and how to fix it: This is similar to my previous bug, after finding the (, the code finds the ) immediately. This is inccorect since my might need to find the ) from the back of the text rather than from the index of (. 
+Description of bug and how to fix it: In the actual output, we should get rid of the backslash, which means that ) is indeed a bucket rather than some signal else. So the code here didn't took the backslash into consideration. And this is why the bug is caused. So to fix the bug here, we need to consieder whether there is a backslash direct in front of the (, ), or other signals, and be sure to get rid of the backslash in out link.
